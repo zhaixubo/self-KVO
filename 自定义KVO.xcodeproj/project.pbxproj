@@ -17,6 +17,8 @@
 		587CB2542A728CE100B04A99 /* ___KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CB2532A728CE100B04A99 /* ___KVOTests.m */; };
 		587CB25E2A728CE100B04A99 /* ___KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CB25D2A728CE100B04A99 /* ___KVOUITests.m */; };
 		587CB2602A728CE100B04A99 /* ___KVOUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CB25F2A728CE100B04A99 /* ___KVOUITestsLaunchTests.m */; };
+		587CB26E2A728D4C00B04A99 /* NSObject+ZXBKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CB26D2A728D4C00B04A99 /* NSObject+ZXBKVO.m */; };
+		587CB2712A728ECE00B04A99 /* ZXBKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CB2702A728ECE00B04A99 /* ZXBKVOInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		587CB2592A728CE100B04A99 /* 自定义KVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义KVOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		587CB25D2A728CE100B04A99 /* ___KVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___KVOUITests.m"; sourceTree = "<group>"; };
 		587CB25F2A728CE100B04A99 /* ___KVOUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___KVOUITestsLaunchTests.m"; sourceTree = "<group>"; };
+		587CB26C2A728D4C00B04A99 /* NSObject+ZXBKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXBKVO.h"; sourceTree = "<group>"; };
+		587CB26D2A728D4C00B04A99 /* NSObject+ZXBKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXBKVO.m"; sourceTree = "<group>"; };
+		587CB26F2A728ECE00B04A99 /* ZXBKVOInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXBKVOInfo.h; sourceTree = "<group>"; };
+		587CB2702A728ECE00B04A99 /* ZXBKVOInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXBKVOInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				587CB23B2A728CDF00B04A99 /* SceneDelegate.m */,
 				587CB23D2A728CDF00B04A99 /* ViewController.h */,
 				587CB23E2A728CDF00B04A99 /* ViewController.m */,
+				587CB26C2A728D4C00B04A99 /* NSObject+ZXBKVO.h */,
+				587CB26D2A728D4C00B04A99 /* NSObject+ZXBKVO.m */,
+				587CB26F2A728ECE00B04A99 /* ZXBKVOInfo.h */,
+				587CB2702A728ECE00B04A99 /* ZXBKVOInfo.m */,
 				587CB2402A728CDF00B04A99 /* Main.storyboard */,
 				587CB2432A728CE100B04A99 /* Assets.xcassets */,
 				587CB2452A728CE100B04A99 /* LaunchScreen.storyboard */,
@@ -267,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				587CB23F2A728CDF00B04A99 /* ViewController.m in Sources */,
+				587CB2712A728ECE00B04A99 /* ZXBKVOInfo.m in Sources */,
 				587CB2392A728CDF00B04A99 /* AppDelegate.m in Sources */,
 				587CB24A2A728CE100B04A99 /* main.m in Sources */,
 				587CB23C2A728CDF00B04A99 /* SceneDelegate.m in Sources */,
+				587CB26E2A728D4C00B04A99 /* NSObject+ZXBKVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
